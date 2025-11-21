@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: antiquewhite;}
+    </style>
+</head>
+<body>
+    <form action="Formulario.php" method="post">
+    <h1>Formulario de Informacion</h1>
+    <fieldset>
+        <legend>Sus Datos Personales</legend>
+        <p>
+        <label for="nombre-apellidos">Nombre y apellidos</label>
+        <input type="text" name="nombre y apellidos" id="nombre-apellidos">
+        </p>
+        <p>
+        <label for="contrase">Contraseña</label>
+        <input type="password" name="contraseña" id="contrase" maxlength="8">
+        </p>
+        <p>
+        <label for="Usuario">Usuario</label>
+        <input type="text" name="usuario" id="Usuario" value="Usuario">
+        </p>
+        <p>Nivel:</p>
+        <p>
+        <input type="radio" name="Nivel" id="Profesional"><label for="Profesional">Profesional</label>
+        </p>
+         <p>
+        <input type="radio" name="Nivel" id="Avanzado" checked><label for="Avanzado">Avanzado</label>
+        </p>
+         <p>
+        <input type="radio" name="Nivel" id="Principiante"><label for="Principiante">Profesional</label>
+        </p>
+    </fieldset>
+    <br>
+    Nacionalidad: <select name="Nacionalidad">
+        <option value="esp" selected>España</option>
+        <option value="europ">Union Europea</option>
+        <option value="fueraEU">Fuera de la UE</option>
+    </select>
+    <p>
+    Descipción:
+    <textarea name="Descipción" id="Descipción" rows="4" cols="25"></textarea>
+    </p>
+    <input type="checkbox" name="deseo" id="deseo" checked>
+    <label for="deseo">Deseo recibir informacion sobre novedades y ofertas</label>
+    <p>
+    <input type="checkbox" name="declaro" id="declaro">
+    <label for="declaro">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre la proteccion de datos</label>
+    </p>
+    Adjuntar foto: <input type="file" name="foto">
+    <p>
+    <input type="submit" name="enviar" id="enviar" value="Enviar Datos">
+    <input type="reset" name="reiniciar" id="reiniciar" value="Borrar Datos">
+</form>
+</body>
+</html>

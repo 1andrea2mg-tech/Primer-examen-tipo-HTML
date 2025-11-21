@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+h1 {font-family: "Pacifico", cursive;font-size: 50px;color:#D2691E;text-align: center;}
+h2 {font-family: "Caveat", cursive;font-size: 30px;color:#00008D}
+h3 {font-family: Arial, Helvetica, sans-serif;font-size: 25px;color:#008B8B}
+
+p {font-family: Arial, Helvetica, sans-serif;}
+
+li {font-family: Arial, Helvetica, sans-serif;}
+
+table {width: 33px; margin: auto;background-color: bisque;width:33%;}
+table,th,td {border:2px solid brown;border-collapse: collapse;}
+
+a:link {text-decoration: none;}
+a:visited {color:grey; font-weight: bold;}
+a:hover {color:red;font-weight: bold;}
+a:active {color:green;}
+
+body {background-image: url("images/ideasbricolaje.jpg");background-size: cover;}
